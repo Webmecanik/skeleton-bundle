@@ -24,7 +24,7 @@ class ConfigFeaturesType extends AbstractType
                 ],
                 'choices'           => [
                     'skeleton.hello'    => 'hello',
-                    'skeleton.hi'    => 'hi',
+                    'skeleton.hi'       => 'hi',
                 ],
             ]
         );
