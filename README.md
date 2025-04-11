@@ -1,6 +1,6 @@
-# Skeleton bundle for Mautic 5
+# Skeleton bundle for Mautic 6
 
-It's just a simple skeleton bundle for Mautic 5.
+It's just a simple skeleton bundle for Mautic 6.
 
 ![image](https://github.com/Webmecanik/skeleton-bundle/assets/462477/5b736fe4-04e2-441e-93c3-9afe9e91299e)
 
