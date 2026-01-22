@@ -22,7 +22,7 @@ return function (ContainerConfigurator $configurator): void {
     // $services->load('MauticPlugin\\SkeletonBundle\\Entity\\', '../Entity/*Repository.php');
 
     // Basic definitions with name, display name and icon
-    $services->alias('mautic.integration.skeletonbundle', \MauticPlugin\SkeletonBundle\Integration\SkeletonBundleIntegration::class);
+    $services->alias('mautic.integration.skeletonbundle', MauticPlugin\SkeletonBundle\Integration\SkeletonBundleIntegration::class);
     // Provides the form types to use for the configuration UI
-    $services->alias('skeletonbundle.integration.configuration', \MauticPlugin\SkeletonBundle\Integration\Support\ConfigSupport::class);
+    $services->alias('skeletonbundle.integration.configuration', MauticPlugin\SkeletonBundle\Integration\Support\ConfigSupport::class);
 };
